@@ -1,0 +1,31 @@
+#root {
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+#root > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#root > header h1 {
+  margin-bottom: 0;
+}
+
+#root > nav {
+  margin: 3em 0;
+}
+
+nav a {
+  display: inline-block;
+  background-color: lightgray;
+  border-radius: 0.2em;
+  padding: 0.5em 1em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+nav a.active {
+  background-color: lightpink;
+}
